@@ -11,8 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/user")
 public class UserController {
+
     @GetMapping("/SayHello")
     public String sayHello() {
         return "Hi User";
     }
+
 }
